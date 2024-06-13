@@ -1,0 +1,15 @@
+[package]
+name = "namu-core"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/joonhyungshin/namu-core.git"
+readme = "README.md"
+
+[lib]
+name = "_namu_core"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.21.2"
+

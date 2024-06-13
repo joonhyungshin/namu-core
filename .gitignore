@@ -1,0 +1,14 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Packaging
+*.egg-info/
+dist/
+
+# Rust
+/target/
+
+# Extension
+*.so
